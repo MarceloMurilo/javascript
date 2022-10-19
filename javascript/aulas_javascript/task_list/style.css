@@ -1,0 +1,54 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    width: 90%;
+    border: 1px solid red;
+    margin: auto auto;
+}
+h1 {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.979);
+    font-size: 70px;
+}
+#texto {
+    font-size: 2rem;
+    width: 80%;
+    padding-left: 20vw;
+    margin-left: 9%;
+    height: 80px;
+}
+button#add {
+    font-size: 2rem;
+    height: 80px;
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    border: none;
+    border-radius:1px 12px 12px 1px;
+    background-color: rgba(0, 255, 21, 0.493);
+}
+.gradient {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(2,0,36);
+    background: linear-gradient(28deg, rgba(2,0,36,1) 0%, rgba(96,96,164,1) 45%, rgba(0,212,255,1) 87%);
+    background-size: 300% 300%;
+    animation: mygradient 15s ease-in-out infinite;
+}
+@keyframes mygradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

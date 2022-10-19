@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Você é estranger?</title>
+</head>
+<body>
+    <h1>VEJA SE VOCÊ É ESTRANHO AQUI AMIGO:</h1>
+    
+    Digita seu pais ai pai: <input type="text" name="strange" id="strange">
+
+    <input type="button" value="Verificar" onclick="verificar()">
+    
+    <div id="res"></div>
+
+       <script>
+        function verificar(){
+
+            var pais = window.document.getElementById('strange') 
+            
+            var res = window.document.querySelector('div#res')
+            
+            var nac = String(pais.value)
+            res.innerHTML = `parabens pelo seu pais ${nac}`
+                if (nac == 'Brasil' || nac == 'brasil'){
+
+                    res.innerHTML += `<p>  CRIA</p>`
+                }
+                else {
+                    res.innerHTML += '<strong> APARENTEMENTE VC É BURRO</strong>'
+
+                }
+                res.innerHTML += '<h1> vlw menor volte sempre</h1>'
+               }
+       </script>
+
+    
+</body>
+</html>
