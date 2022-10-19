@@ -9,3 +9,4 @@ function parimpar(n) {
 
     let res = parimpar(2)
     console.log(res)
+    //teste
