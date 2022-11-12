@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+    body {
+    background:linear-gradient(180deg,#010606,#132121,#010606);
+    line-height: 1;
+    background-size: 150% 350%;
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    place-items: center;
+    animation: fadeIn 30s ease infinite alternate;
+}
+@keyframes fadeIn{
+  0% {
+   background-position-y: 0%;
+  }
+  100% {
+   background-position-y: 100%;
+  }
+}
+
+    header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #222324;
+    display: flex;
+    justify-content: center;
+}
+
+    section {
+    margin-top: 7.5rem;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    border-radius:300px 300px 50px 50px ;
+    max-width: 100%;
+    box-shadow: 10px 10px  20px  rgba(6, 1, 1, 0.362);
+    margin: 11.25rem auto 0 auto;
+    
+  }
+    img#vovo{
+        width: 20rem;
+        border-radius: 15%;
+        margin-bottom: 5rem;
+        margin-top: 5rem;
+        
+  }
+     p {
+    font-size: 1.125rem;
+    line-height: 1.33333333333;
+    color: #c4c4c4;
+    margin-top: 1.25rem;
+    max-width: 600px;
+    padding-left: 1.75rem;
+    text-align: justify;
+  }
+
+  .menu ul {
+    display: flex;
+    list-style: none;
+  }
+
+  .menu li + li {
+    margin-left: 5rem;
+    
+  }
+
+  .titlep {
+    margin-top: 80px;
+    margin-bottom: -120px;
+    font-size: 4rem;
+    line-height: 1.125;
+    color: #f5f5f7;
+    
+  }
+  #dd {
+    font-size: 2rem;
+    line-height: 1.125;
+    color: #f5f5f7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    
+
+  .menu a {
+    display: inline-block;
+    font-size: 1rem;
+    line-height: 1.33333333333;
+    color: #fff;
+    text-decoration: none;
+    padding: 1.225rem 0;
+  }
+
+  .menu a:hover {
+    color: #4dc8ff;
+  }
+  .content {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .title {
+    font-size: 4rem;
+    line-height: 1.125;
+    color: #f5f5f7;
+  }
+  .titlep span {
+    color: #4dc8ff;
+  }
+  .title:first-child {
+    padding-left: 1.25rem;
+    border-left: 0.5rem solid #238aba;
+  }
+  .titlep:first-child {
+    padding-left: 1.25rem;
+    border-left: 0.5rem solid #238aba;
+  }
+  small {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #a1a1a6;
+    margin-top: 5vh;
+    margin-bottom: 5rem;
+  }
+ 
+  
+  #btnLeiaMais,#btnLeiaMaisv, #btnLeiaMaisme, #btnLeiaMaisAjuda{
+    transition-duration: 0.4s;
+    
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+    
+  }
+ 
+  #btnLeiaMais:hover,#btnLeiaMaisv:hover, #btnLeiaMaisme:hover, #btnLeiaMaisAjuda:hover {
+    background-color: #4dc8ff;
+  }
+  
+  button:hover {
+    background-color: #879e88;  
+    color: white;
+  }
+  
+  #buttonpix {
+    
+  
+    transition-duration: 0.4s;
+    
+    background-color: #bcbebcc4; 
+    border: none;
+    color: rgb(255, 255, 255);
+    
+    text-align: center 100px;
+    text-decoration: none;
+    display: inline;
+    cursor: pointer;
+    font-size: 1px;
+    
+    
+  }
+  
+    
+  
+  #buttonpix:hover {
+    background-color: #4CAF50;
+  } 
+
+
+  .copy-link {
+    display: flex;
+    max-width: 250px;
+    --height: 36px;
+    margin-top: 20px;
+    margin-left: 100px;
+    
+  }
+  .copy-link-input {
+    flex-grow: 1;
+    padding: 0 8px;
+    font-size: 14px;
+    border: 1px solid #cccccc;
+    border-right: none;
+    outline: none;
+
+        
+      }
+  .copy-link-input:hover {
+    background-color: #eeeeee;
+    color: #0d0e0f;
+  }
+  .copy-link-button {
+    flex-shrink: 0;
+    width: var(--height);
+    height: var(--height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dddddd;
+    color: #333333;
+    outline: none;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+  }
+  .copy-link-button:hover {
+    background-color: #cccccc;
+  }
+  #pix{
+    color: #c4c4c4;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  #voltar {
+    
+    transition-duration: 0.4s;
+
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 20%;
+    color: white;
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 25px;
+  }
+ 
+#mais{
+    display: none;
+}
+#maisv{
+    display: none;
+}
+#maisme{
+    display: none;
+} 
+#maisAjuda{
+    display: none;
+}
+#pixf {
+  color: #c4c4c4;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media screen and (min-width: 1110px) {
+    html {
+      font-size: 93.75%;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 230px;
+      
+    }
+  }
+@media screen and (max-width: 1080px) {
+    html {
+      font-size: 93.75%;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 230px;
+      
+    }
+  }
+  @media screen and (max-width: 720px) {
+    html {
+      font-size: 87.5%;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 113px;
+      
+    }
+  @media screen and (min-width: 620px) {
+    html {
+      font-size: 87.5%;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 200px;
+      
+    }
+  }
+  
+ 
+    @media screen and (max-width: 520px) {
+      .menu li + li {
+        margin-left: 2rem;
+      }
+      .copy-link {
+        display: flex;
+        max-width: 250px;
+        --height: 36px;
+        margin-top: 20px;
+        margin-left: 113px;
+        
+      }
+    }
+  
+  
+  
+  @media screen and (max-width: 450px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    @media screen and (max-width: 428px) {
+      .menu li + li {
+        margin-left: 2rem;
+      }
+      .copy-link {
+        display: flex;
+        max-width: 250px;
+        --height: 36px;
+        margin-top: 20px;
+        margin-left: 64px;
+        
+      }
+    }
+  }
+  @media screen and (max-width: 414px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 63px;
+      
+    }
+  }
+ 
+  @media screen and (max-width: 412px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 64px;
+      
+    }
+    @media screen and (max-width: 390px) {
+      .menu li + li {
+        margin-left: 2rem;
+      }
+      .copy-link {
+        display: flex;
+        max-width: 250px;
+        --height: 36px;
+        margin-top: 20px;
+        margin-left: 53px;
+        
+      }
+    }
+  @media screen and (max-width: 375px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 44px;
+      
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 40px;
+      
+    }
+  }
+  @media screen and (max-width: 353px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 29px;
+      
+    }
+  }}
+  @media screen and (min-width: 250px max-width: 300px) {
+    .menu li + li {
+      margin-left: 2rem;
+    }
+    .copy-link {
+      display: flex;
+      max-width: 250px;
+      --height: 36px;
+      margin-top: 20px;
+      margin-left: 2px;
+      
+    }
+  }}
+  #voltar {
+    color: white;
+  }
+  

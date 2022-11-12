@@ -18,12 +18,14 @@ function contar() {
                 // contagem crescente
                 
                 for (let c = i; c<=f; c += p)
-                    res.innerHTML += ` ${c} \u{1F595}`
+                    res.innerHTML += `<div> aaaa </div>
+                    ${c} \u{1F595}`
                 }
              else {
                 // contagem decrescente
                 for (let c = i; c >=f ; c -= p)
-                res.innerHTML += `${c}\u{1F595}`
+                res.innerHTML += `<div> aaaa </div>
+                ${c}\u{1F595}`
             }
             res.innerHTML += `\u{1F91F}`
         }
