@@ -1,0 +1,1847 @@
+/*
+@media screen and (min-width: 300px) {
+    html {
+        font-size: 100%;
+      }
+      
+      .copy-link {
+        display: flex;
+        max-width: 250px;
+        --height: 36px;
+        margin-top: 20px;
+        margin-left: 230px;
+        
+    }
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+      opacity:0 ;
+      transition: 0.5s  ;
+      
+    }
+  
+  #msg {
+    position: relative;
+    border-radius: 20%;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 80px;
+    top: 50px;
+    position: absolute;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 1130px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 380vh;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 2000px;
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -2200px;
+          }
+
+    }
+    @media screen and (min-device-width: 360px) and (min-device-height: 760px) {
+      
+        .copy-link {
+            display: flex;
+          max-width: 250px;
+          --height: 36px;
+          margin-top: 20px;
+          margin-left: 230px;
+          
+      }
+      .container .card {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            margin: 30px;
+          }
+          .container .card .content h3 {
+        position: relative;
+        font-size: 20px;
+        color: #fff;
+        z-index: 1;
+        
+      }
+      .container .card .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        opacity:0 ;
+        transition: 0.5s  ;
+        
+      }
+      
+      #msg {
+      position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 5px;
+      font-size: 25px;
+      color: #fff;
+      left: 90px;
+      top: 50px;
+      position: absolute;
+    } 
+      #descer {
+          font-stretch: semi-condensed;
+          position: relative;
+        border-radius: 20%;
+        text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+        
+        
+        font-size: 15px;
+        color: #fff;
+        left: 50px;
+        top: 500px;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 5px;
+      }
+      #escolher {
+          font-stretch: semi-condensed;
+          position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 60px;
+          top: 990px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+      }
+      #imagem {
+          
+          background-size: cover;
+          height: 340vh;
+          align-items: center;
+          display: flex;
+          position: relative;
+          left: -0px;
+          width: 2000px;
+      }
+      small {
+          position:absolute;
+          display: block;
+          font-size: 1rem;
+          line-height: 1.5;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5vh;
+          margin-bottom: 5rem;
+          bottom: -1895px;
+      }
+    }
+    @media screen and (min-device-width: 360px) and (min-device-height: 740px) {
+      
+        .copy-link {
+            display: flex;
+          max-width: 250px;
+          --height: 36px;
+          margin-top: 20px;
+          margin-left: 230px;
+          
+      }
+      .container .card {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            margin: 30px;
+          }
+          .container .card .content h3 {
+        position: relative;
+        font-size: 20px;
+        color: #fff;
+        z-index: 1;
+        
+      }
+      .container .card .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        opacity:0 ;
+        transition: 0.5s  ;
+        
+      }
+      
+      #msg {
+      position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 5px;
+      font-size: 25px;
+      color: #fff;
+      left: 130px;
+      top: 50px;
+      position: absolute;
+    } 
+      #descer {
+          font-stretch: semi-condensed;
+          position: relative;
+        border-radius: 20%;
+        text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+        
+        
+        font-size: 15px;
+        color: #fff;
+        left: 60px;
+        top: 500px;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 5px;
+      }
+      #escolher {
+          font-stretch: semi-condensed;
+          position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 60px;
+          top: 960px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+      }
+      #imagem {
+          
+          background-size: cover;
+          height: 340vh;
+          align-items: center;
+          display: flex;
+          position: relative;
+          left: -0px;
+          width: 2000px;
+      }
+      small {
+          position:absolute;
+          display: block;
+          font-size: 1rem;
+          line-height: 1.5;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5vh;
+          margin-bottom: 5rem;
+          bottom: -1820px;
+      }
+    }
+@media screen and (min-device-width: 375px) and (min-device-height: 667px) {
+    html {
+        font-size: 100%;
+      }
+      
+      .copy-link {
+        display: flex;
+        max-width: 250px;
+        --height: 36px;
+        margin-top: 20px;
+        margin-left: 230px;
+        
+    }
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+      opacity:0 ;
+      transition: 0.5s  ;
+      
+    }
+  
+  #msg {
+    position: relative;
+    border-radius: 20%;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 80px;
+    top: 50px;
+    position: absolute;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 960px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 380vh;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 2000px;
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -1920px;
+          }
+
+    }
+
+   
+
+    
+    @media screen and (min-device-width: 360px) and (min-device-height: 800px) {
+      
+        .copy-link {
+            display: flex;
+          max-width: 250px;
+          --height: 36px;
+          margin-top: 20px;
+          margin-left: 230px;
+          
+      }
+      .container .card {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            margin: 30px;
+          }
+          .container .card .content h3 {
+        position: relative;
+        font-size: 20px;
+        color: #fff;
+        z-index: 1;
+        
+      }
+      .container .card .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        opacity:0 ;
+        transition: 0.5s  ;
+        
+      }
+      
+      #msg {
+      position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 5px;
+      font-size: 25px;
+      color: #fff;
+      left: 90px;
+      top: 50px;
+      position: absolute;
+    } 
+      #descer {
+          font-stretch: semi-condensed;
+          position: relative;
+        border-radius: 20%;
+        text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+        
+        
+        font-size: 15px;
+        color: #fff;
+        left: 50px;
+        top: 500px;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 5px;
+      }
+      #escolher {
+          font-stretch: semi-condensed;
+          position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 60px;
+          top: 1050px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+      }
+      #imagem {
+          
+          background-size: cover;
+          height: 340vh;
+          align-items: center;
+          display: flex;
+          position: relative;
+          left: -0px;
+          width: 2000px;
+      }
+      small {
+          position:absolute;
+          display: block;
+          font-size: 1rem;
+          line-height: 1.5;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5vh;
+          margin-bottom: 5rem;
+          bottom: -1980px;
+      }
+    }
+    @media screen and (min-device-width: 380px) and (min-device-height: 663px) {
+      
+        .copy-link {
+            display: flex;
+          max-width: 250px;
+          --height: 36px;
+          margin-top: 20px;
+          margin-left: 230px;
+          
+      }
+      .container .card {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            margin: 30px;
+          }
+          .container .card .content h3 {
+        position: relative;
+        font-size: 20px;
+        color: #fff;
+        z-index: 1;
+        
+      }
+      .container .card .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        opacity:0 ;
+        transition: 0.5s  ;
+        
+      }
+      
+      #msg {
+      position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 5px;
+      font-size: 25px;
+      color: #fff;
+      left: 90px;
+      top: 50px;
+      position: absolute;
+    } 
+      #descer {
+          font-stretch: semi-condensed;
+          position: relative;
+        border-radius: 20%;
+        text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+        
+        
+        font-size: 15px;
+        color: #fff;
+        left: 50px;
+        top: 500px;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 5px;
+      }
+      #escolher {
+          font-stretch: semi-condensed;
+          position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 60px;
+          top: 830px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+      }
+      #imagem {
+          
+          background-size: cover;
+          height: 340vh;
+          align-items: center;
+          display: flex;
+          position: relative;
+          left: -0px;
+          width: 2000px;
+      }
+      small {
+          position:absolute;
+          display: block;
+          font-size: 1rem;
+          line-height: 1.5;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5vh;
+          margin-bottom: 5rem;
+          bottom: -1640px;
+      }
+    }
+    @media screen and (min-device-width: 383px) and (min-device-height: 853px) {
+      
+        .copy-link {
+            display: flex;
+          max-width: 250px;
+          --height: 36px;
+          margin-top: 20px;
+          margin-left: 230px;
+          
+      }
+      .container .card {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            margin: 30px;
+          }
+          .container .card .content h3 {
+        position: relative;
+        font-size: 20px;
+        color: #fff;
+        z-index: 1;
+        
+      }
+      .container .card .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        opacity:0 ;
+        transition: 0.5s  ;
+        
+      }
+      
+      #msg {
+      position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 5px;
+      font-size: 25px;
+      color: #fff;
+      left: 90px;
+      top: 50px;
+      position: absolute;
+    } 
+      #descer {
+          font-stretch: semi-condensed;
+          position: relative;
+        border-radius: 20%;
+        text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+        
+        
+        font-size: 15px;
+        color: #fff;
+        left: 60px;
+        top: 500px;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 5px;
+      }
+      #escolher {
+          font-stretch: semi-condensed;
+          position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 60px;
+          top: 1150px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+      }
+      #imagem {
+          
+          background-size: cover;
+          height: 340vh;
+          align-items: center;
+          display: flex;
+          position: relative;
+          left: -0px;
+          width: 2000px;
+      }
+      small {
+          position:absolute;
+          display: block;
+          font-size: 1rem;
+          line-height: 1.5;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5vh;
+          margin-bottom: 5rem;
+          bottom: -2100px;
+      }
+    }
+    @media screen and (min-device-width: 390px) and (min-device-height: 844px) {
+      
+        .copy-link {
+            display: flex;
+          max-width: 250px;
+          --height: 36px;
+          margin-top: 20px;
+          margin-left: 230px;
+          
+      }
+      .container .card {
+            position: relative;
+            width: 150px;
+            height: 200px;
+            margin: 30px;
+          }
+          .container .card .content h3 {
+        position: relative;
+        font-size: 20px;
+        color: #fff;
+        z-index: 1;
+        
+      }
+      .container .card .content {
+        position: absolute;
+        padding: 20px;
+        text-align: center;
+        opacity:0 ;
+        transition: 0.5s  ;
+        
+      }
+      
+      #msg {
+      position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 25px;
+      color: #fff;
+      font-weight: 600;
+      letter-spacing: 5px;
+      font-size: 25px;
+      color: #fff;
+      left: 120px;
+      top: 50px;
+      position: absolute;
+    } 
+      #descer {
+          font-stretch: semi-condensed;
+          position: relative;
+        border-radius: 20%;
+        text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+        
+        
+        font-size: 15px;
+        color: #fff;
+        left: 60px;
+        top: 500px;
+        position: absolute;
+        font-weight: 600;
+        letter-spacing: 5px;
+      }
+      #escolher {
+          font-stretch: semi-condensed;
+          position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 40px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 60px;
+          top: 1130px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+      }
+      #imagem {
+          
+          background-size: cover;
+          height: 340vh;
+          align-items: center;
+          display: flex;
+          position: relative;
+          left: -0px;
+          width: 2000px;
+      }
+      small {
+          position:absolute;
+          display: block;
+          font-size: 1rem;
+          line-height: 1.5;
+          text-align: center;
+          color: #ffffff;
+          margin-top: 5vh;
+          margin-bottom: 5rem;
+          bottom: -2100px;
+      }
+    }
+    
+    
+        @media screen and (min-device-width: 412px) and (min-device-height: 883px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+              .container .card {
+                  position: relative;
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left: 130px;
+            top: 50px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 1330px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 338vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -2160px;
+            } 
+        }
+        @media screen and (min-device-width: 412px) and (min-device-height: 915px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left: 130px;
+            top: 50px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 1370px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -2200px;
+            }
+        }
+        @media screen and (min-device-width: 520px) and (min-device-height: 667px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left: 180px;
+            top: 50px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 960px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+            }
+        @media screen and (min-device-width: 768px) and (min-device-height: 1024px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left: 210px;
+            top: 50px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 1520px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+            }
+        }
+        @media screen and (min-device-width: 820px) and (min-device-height: 1180px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+            .container {
+                left: 200px;
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left: 260px;
+            top: 50px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 85px;
+              top: 1760px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+                left: 255px;
+            }
+        }
+
+        /** Aqui vão telas de PC **/
+        /*@media screen and (min-device-width: 850px) and (min-device-height: 964px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+            .container {
+                left: 900px;
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left:900px;
+            top:150px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left:900px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 800px;
+              top: 1360px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+                left: 960px;
+            }
+        }
+        
+        }
+        
+        @media screen and (min-device-width: 920px) and (min-device-height: 916px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+            .container {
+                left: 900px;
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left:900px;
+            top:150px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left:900px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 800px;
+              top: 1260px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+                left: 960px;
+            }
+        
+        @media screen and (min-device-width: 1000px) and (min-device-height: 916px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+            .container {
+                left: 500px;
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left:500px;
+            top:150px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left:420px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 400px;
+              top: 1360px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+                left: 560px;
+            }
+        }
+        @media screen and (min-device-width: 1200px) and (min-device-height: 916px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+            .container {
+                left: 600px;
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left:600px;
+            top:150px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left:520px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 500px;
+              top: 1360px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+                left: 660px;
+            }
+        }
+        @media screen and (min-device-width: 1400px) and (min-device-height: 916px) {
+            html {
+                font-size: 100%;
+              }
+              
+              .copy-link {
+                display: flex;
+                max-width: 250px;
+                --height: 36px;
+                margin-top: 20px;
+                margin-left: 230px;
+                
+            }
+            .container {
+                left: 860px;
+            }
+              .container .card {
+                  position: relative;
+              
+                  width: 150px;
+                  height: 230px;
+                  margin: 40px;
+                  top: 200px;
+            }
+            .container .card .content h3 {
+              position: relative;
+              font-size: 20px;
+              color: #fff;
+              z-index: 1;
+          
+            }
+          .container .card .content {
+              position: absolute;
+              padding: 20px;
+              text-align: center;
+              opacity:0 ;
+              transition: 0.5s  ;
+              
+          }
+          #msg {
+            position: relative;
+            border-radius: 20%;
+            text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+            font-size: 25px;
+            color: #fff;
+            font-weight: 600;
+            letter-spacing: 5px;
+            font-size: 25px;
+            color: #fff;
+            left:900px;
+            top:150px;
+            position: absolute;
+            } 
+            #descer {
+                font-stretch: semi-condensed;
+                position: relative;
+              border-radius: 20%;
+              text-shadow: 30px 70px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left:520px;
+              top: 550px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 5px;
+            }
+            #escolher {
+                font-stretch: semi-condensed;
+                
+              border-radius: 20%;
+              text-shadow: 20px 50px 2.5px rgba(57, 40, 40, 0.262);
+              
+              
+              font-size: 18px;
+              color: #fff;
+              left: 700px;
+              top: 1360px;
+              position: absolute;
+              font-weight: 600;
+              letter-spacing: 6px;
+            }
+            #imagem {
+                
+                background-size: cover;
+                height: 333vh;
+                align-items: center;
+                display: flex;
+                position: relative;
+                left: -0px;
+                width: 2000px;
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -1600px;
+                left: 920px;
+            }
+        }
+

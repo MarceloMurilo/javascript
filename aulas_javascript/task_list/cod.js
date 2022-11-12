@@ -1,78 +1,12 @@
-let contador = 0;
-let input = document.getElementById('texto');
-let add = document.getElementById('add');
-let main = document.getElementById('areaLista');
-
-
-function addTarefa() {
-    //pegar o valor digitado no input
-    let valorInput = input.value;
-
-    //se não for vazio e nem numo, nem indefinido 
-    if ((valorInput !== "") && (valorInput !== null) && (valorInput !== undefined)) {
-
-        ++contador;
-
-        let novoItem = `<div id= "${contador}" class="item"> 
+let contador=0,input=document.getElementById("texto"),add=document.getElementById("add"),main=document.getElementById("areaLista");function addTarefa(){let a=input.value;if(""!==a&&null!==a&&a!==void 0){++contador;let b=`<div id= "${contador}" class="item"> 
           
                     <div onclick ="marcarTarefa(${contador})"
                         class="item-icone">
                         <i id = "icone_${contador}" class="mdi mdi-circle-outline"></i>    </div>
 
-                    <div onclick ="marcarTarefa(${contador})" class="item-nome">${valorInput} </div>
+                    <div onclick ="marcarTarefa(${contador})" class="item-nome">${a} </div>
 
                     <div class="item-botao">
                         <button onclick = "deletar(${contador})" class="delete"> <i class="mdi mdi-delete"></i>Deletar </button> </div>
                         
-                        </div>`;
-
-        //add novo item no main
-        main.innerHTML += novoItem;
-        //zerar os campos
-        input.value = ""
-        input.focus();
-    }
-}
-
-
-function deletar(id) {
-
-    var tarefa = document.getElementById(id);
-    tarefa.remove();
-    }
-
-
-function marcarTarefa(id) {
-
-    var item = document.getElementById(id);
-    var classe = item.getAttribute('class');
-    
-    console.log(classe);
-
-    if(classe == "item") {
-        item.classList.add('clicado');
-        var icone_ = document.getElementById('icone_'+ id);
-        icone_.classList.remove('mdi-circle-outline');
-        icone_.classList.add('mdi-check-circle');
-
-        item.parentNode.appendChild(item);
-    }else  {
-        item.classList.remove('clicado');
-        var icone_ = document.getElementById('icone_'+ id);
-        icone_.classList.add('mdi-circle-outline');
-        icone_.classList.remove('mdi-check-circle');
-    }
-   
-    }
-
-
-input.addEventListener("keyup", function (event) {
-
-    //se teclou enter (13)
-    if (event.keyCode === 13) {
-
-        event.preventDefault();
-        add.click();
-    }
-    }
-    )
+                        </div>`;main.innerHTML+=b,input.value="",input.focus()}}function deletar(a){var b=document.getElementById(a);b.remove()}function marcarTarefa(a){var b=document.getElementById(a),c=b.getAttribute("class");if(console.log(c),"item"==c){b.classList.add("clicado");var d=document.getElementById("icone_"+a);d.classList.remove("mdi-circle-outline"),d.classList.add("mdi-check-circle"),b.parentNode.appendChild(b)}else{b.classList.remove("clicado");var d=document.getElementById("icone_"+a);d.classList.add("mdi-circle-outline"),d.classList.remove("mdi-check-circle")}}input.addEventListener("keyup",function(a){13===a.keyCode&&(a.preventDefault(),add.click())});

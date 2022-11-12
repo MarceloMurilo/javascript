@@ -1,0 +1,852 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+    
+
+.container {
+    
+    position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.container .card {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.008);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+}
+
+
+.container .card .content {
+    padding: 20px;
+    text-align: center;
+    opacity:1 ;
+ 
+    
+}
+.container .card:hover .content {
+  opacity: 1;
+}
+
+ h2 {
+    position: absolute;
+    top:  80px;
+    right: 30px;
+    font-size: 2cm;
+    color: rgba(255, 255, 255, 0.432);
+    pointer-events: none;
+}
+ h3 {
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+
+}
+ p {
+    font-size: 1em;
+    color:#fff;
+    font-weight: 300; 
+    
+}
+ a{
+     position: relative;
+     display: inline-block;
+    padding: 8px;
+    margin-top: 15px;
+    background: #fff;
+    color: #161623;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+small {
+    position:absolute;
+    display: block;
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5vh;
+    margin-bottom: 5rem;
+    bottom: -1900px;
+}
+#buttonpixf{
+    position: relative;
+     display: inline-block;
+    padding: 8px;
+    margin-top: 15px;
+    background: #fff;
+    color: #161623;
+    text-decoration: none;
+    border-radius: 300px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.copy-linkf-input {
+    display: none;
+}
+
+/*MEDIA QUERIES -----------------------------------====================================*/
+
+
+    @media screen and (min-width: 250px) {
+    html {
+        font-size: 100%;
+      }
+      
+    
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+    
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 2vw;
+    top: -20vh;
+    position: absolute;
+    width: 300px;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 62vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -37vh;
+            left: 10vw;
+          }
+    }
+    @media screen and (min-width: 360px) {
+    html {
+        font-size: 100%;
+      }
+      
+    
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+      
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 2vw;
+    top: -20vh;
+    position: absolute;
+    width: 300px;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 68vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -37vh;
+            left: 10vw;
+          }
+    }
+    @media screen and (min-width: 375px) {
+    html {
+        font-size: 100%;
+      }
+      
+    
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+    
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 2vw;
+    top: -20vh;
+    position: absolute;
+    width: 300px;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 72vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -37vh;
+            left: 10vw;
+          }
+    }
+    @media screen and (min-width: 390px) {
+    html {
+        font-size: 100%;
+      }
+      
+    
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+     
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 5vw;
+    top: -20vh;
+    position: absolute;
+    width: 300px;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 62vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -37vh;
+            left: 10vw;
+          }
+    }
+    @media screen and (min-device-width: 500px) {
+    html {
+        font-size: 100%;
+      }
+      
+    
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+      
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 2vw;
+    top: -20vh;
+    position: absolute;
+    width: 300px;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 57vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -37vh;
+            left: 7vw;
+          }
+    }
+    @media screen and (min-device-width: 510px) and (min-device-height: 840px){
+        html {
+            font-size: 100%;
+          }
+          
+        
+          .container .card {
+              position: relative;
+              width: 150px;
+              height: 200px;
+              margin: 30px;
+        }
+        .container .card .content h3 {
+          position: relative;
+          font-size: 20px;
+          color: #fff;
+          z-index: 1;
+      
+        }
+      .container .card .content {
+          position: absolute;
+          padding: 20px;
+          text-align: center;
+         
+          
+        }
+      
+      #msg {
+        position: relative;
+        text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+        font-size: 25px;
+           color: #fff;
+        font-weight: 600;
+         letter-spacing: 5px;
+        font-size: 25px;
+        color: #fff;
+        left: 2vw;
+        top: -20vh;
+        position: absolute;
+        width: 300px;
+         } 
+        #descer {
+            font-stretch: semi-condensed;
+            position: relative;
+          border-radius: 20%;
+          text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+          
+          
+          font-size: 15px;
+          color: #fff;
+          left: 40px;
+          top: 500px;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 5px;
+         }
+        #escolher {
+            font-stretch: semi-condensed;
+            position: relative;
+          border-radius: 20%;
+          text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+          font-size: 15px;
+          color: #fff;
+          left: 40px;
+          top: 57vh;
+          position: absolute;
+          font-weight: 600;
+          letter-spacing: 6px;
+            }
+        #imagem {
+            
+            background-size: cover;
+            height: 100%;
+            align-items: center;
+            display: flex;
+            position: relative;
+            left: -0px;
+            width: 100%;
+           
+            }
+            small {
+                position:absolute;
+                display: block;
+                font-size: 1rem;
+                line-height: 1.5;
+                text-align: center;
+                color: #ffffff;
+                margin-top: 5vh;
+                margin-bottom: 5rem;
+                bottom: -37vh;
+                left: 7vw;
+              }
+        }
+   
+    @media screen and (min-width: 800px) {
+    html {
+        font-size: 100%;
+      }
+      
+    
+      .container .card {
+          position: relative;
+          width: 150px;
+          height: 200px;
+          margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+     
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 2vw;
+    top: -20vh;
+    position: absolute;
+    width: 300px;
+     } 
+    #descer {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 20px 30px 2.5px rgba(57, 40, 40, 0.262);
+      
+      
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 500px;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 5px;
+     }
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 40px;
+      top: 48vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: -57vh;
+            left: 4vw;
+          }
+    }
+    
+    @media screen and (min-width: 1080px) {
+    html {
+        font-size: 100%;
+      }
+      
+
+      .container .card {
+        top: -210vh;
+        position: relative;
+        width: 150px;
+        height: 200px;
+        margin: 30px;
+    }
+    .container .card .content h3 {
+      position: relative;
+      font-size: 20px;
+      color: #fff;
+      z-index: 1;
+  
+    }
+  .container .card .content {
+      position: absolute;
+      padding: 20px;
+      text-align: center;
+     
+      
+    }
+  
+  #msg {
+    position: relative;
+    text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+    font-size: 25px;
+       color: #fff;
+    font-weight: 600;
+     letter-spacing: 5px;
+    font-size: 25px;
+    color: #fff;
+    left: 1vw;
+    top: -225vh;
+    position: absolute;
+    width: 300px;
+     } 
+    
+    #escolher {
+        font-stretch: semi-condensed;
+        position: relative;
+      border-radius: 20%;
+      text-shadow: 1px 1px rgba(19, 2, 2, 0.343);
+      font-size: 15px;
+      color: #fff;
+      left: 50px;
+      top: -140vh;
+      position: absolute;
+      font-weight: 600;
+      letter-spacing: 6px;
+      justify-content: center;
+      width: 171px;
+        }
+    #imagem {
+        
+        background-size: cover;
+        height: 100%;
+        align-items: center;
+        display: flex;
+        position: relative;
+        left: -0px;
+        width: 100%;
+       
+        }
+        small {
+            position:absolute;
+            display: block;
+            font-size: 1rem;
+            line-height: 1.5;
+            text-align: center;
+            color: #ffffff;
+            margin-top: 5vh;
+            margin-bottom: 5rem;
+            bottom: 127vh;
+            left: 3vw;
+          }
+    }
+    
